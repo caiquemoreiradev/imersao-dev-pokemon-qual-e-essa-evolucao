@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraFlix | Imersão Dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://www.designbust.com/download/1037/png/netflix_logo_png_transparet512.png"
+        type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img onclick="removeFilters()" id="logo" src="./images/logo.png" alt="">
+
+        <nav>
+            <ul>
+                <li onclick="filterContentAction()">Ação</li>
+                <li onclick="filterTVShows()">Séries</li>
+                <li onclick="filterAnimations()">Animações</li>
+                <li onclick="filterComedies()">Comédias</li>
+            </ul>
+        </nav>
+
+        <h2>Aula04 | imersão <strong>dev_</strong></h2>
+    </header>
+
+    <main>
+
+        <section class="tvShows__container">
+            <h2>Séries</h2>
+
+            <section class="tvShows">
+
+            </section>
+        </section>
+
+        <section class="action__container">
+            <h2>Ação</h2>
+
+            <section class="action">
+
+            </section>
+        </section>
+
+        <section class="animations__container">
+            <h2>Animações</h2>
+
+            <section class="animation">
+
+            </section>
+        </section>
+
+        <section class="comedy__container">
+            <h2>Comédia</h2>
+
+            <section class="comedy">
+
+            </section>
+        </section>
+        
+
+        <section class="models">
+            <div class="content">
+                <img class="poster__content" src="" alt="">
+                <div class="content__infos">
+                    <h2></h2>
+                    <h4></h4>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
